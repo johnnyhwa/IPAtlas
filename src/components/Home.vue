@@ -19,7 +19,7 @@ body {
 </style>
 
 <script>
-import {Node} from "../module/node";
+import {Entity} from "../module/node";
 export default {
   data() {
     return {
@@ -215,7 +215,7 @@ export default {
       let opt = {
        
       }
-      let o = new Node(opt);
+      let o = new Entity(opt);
       console.log(o)
     },
     drawLine(p_data) {

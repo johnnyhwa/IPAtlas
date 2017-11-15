@@ -1,0 +1,288 @@
+{
+    "code": "100000",
+    "data": {
+        "name": "潘孝乐",
+        "basicInfo": {
+            "id": "pcta5z884pho",
+            "name": "潘孝乐",
+            "icon": "http://10.118.56.171:7350/v0103/MUT0LKAiqKWvMF9vMKW0pUtiqU8iZmZiZQZiBQRiZmZjZmskZGw3AmN2ZQLlAvR2YaOhMj?sptyp=person0&spid=pcta5z884pho&m=1",
+            "iconUpdated": false,
+            "implType": "Entity",
+            "type": "Person",
+            "typeName": "人",
+            "downloadUri": null,
+            "sevenX": [
+                "在逃"
+            ],
+            "key": [
+                "RowKey",
+                "姓名",
+                "身份证号",
+                "性别",
+                "出生日期",
+                "婚姻状况",
+                "民族",
+                "籍贯",
+                "出生地",
+                "兵役情况",
+                "手机号码",
+                "户口所在地",
+                "学历",
+                "地址",
+                "重点人员细类",
+                "重点人员立案时间",
+                "重点人员入部级库时间"
+            ],
+            "value": [
+                [
+                    "pcta5z884pho"
+                ],
+                [
+                    "潘孝乐"
+                ],
+                [
+                    "330381198707062617"
+                ],
+                [
+                    "男"
+                ],
+                [
+                    "1987-07-06"
+                ],
+                [
+                    "未婚"
+                ],
+                [
+                    "汉族"
+                ],
+                [
+                    "浙江省温州市瑞安县",
+                    "浙江省温州市瑞安市"
+                ],
+                [
+                    "浙江省温州市瑞安县"
+                ],
+                [
+                    "未服兵役"
+                ],
+                [
+                    "13690252222 (2017,2013)",
+                    "13958887044 (2012)"
+                ],
+                [
+                    "浙江省温州市瑞安市",
+                    "浙江省温州市瑞安市上望街道横塘头村安顺西路40号",
+                    "上望街道横塘头村安顺西路40号",
+                    "瑞安市瑞安公安局 上望街道塘头村安顺西路40号",
+                    "浙江省瑞安市上望街道横塘头村安顺西路40号"
+                ],
+                [
+                    "普通高级中学教育",
+                    "初中"
+                ],
+                [
+                    "广东省浙江省瑞安市上望街道横塘头村安顺西路40号",
+                    "浙江省瑞安市上望街道横塘头村安顺西路40号",
+                    "上望街道横塘头村安顺西路40号",
+                    "浙江省温州市瑞安市上望街道横塘头村安顺西路40号",
+                    "浙江省温州市瑞安市瑞安公安局 上望街道塘头村安顺西路40号",
+                    "瑞安市瑞安公安局 上望街道塘头村安顺西路40号"
+                ],
+                [
+                    "在逃"
+                ],
+                [
+                    "2013年4月5日"
+                ],
+                [
+                    "2013年4月16日"
+                ]
+            ],
+            "propertyIds": [
+                [],
+                [
+                    "pcta5z884pho_yh_1"
+                ],
+                [
+                    "pcta5z884pho_yb_1"
+                ],
+                [
+                    "pcta5z884pho_ya_1"
+                ],
+                [
+                    "pcta5z884pho_ao_1"
+                ],
+                [
+                    "pcta5z884pho_ar_1"
+                ],
+                [
+                    "pcta5z884pho_as_1"
+                ],
+                [
+                    "pcta5z884pho_hb_1",
+                    "pcta5z884pho_hb_2"
+                ],
+                [
+                    "pcta5z884pho_gz_1"
+                ],
+                [
+                    "pcta5z884pho_cy_1"
+                ],
+                [
+                    "pcta5z884pho_yg_1",
+                    "pcta5z884pho_yg_2",
+                    "pcta5z884pho_yg_3"
+                ],
+                [
+                    "pcta5z884pho_ae_1",
+                    "pcta5z884pho_ae_2",
+                    "pcta5z884pho_ae_3",
+                    "pcta5z884pho_ae_4",
+                    "pcta5z884pho_ae_5"
+                ],
+                [
+                    "pcta5z884pho_af_1",
+                    "pcta5z884pho_af_2"
+                ],
+                [
+                    "pcta5z884pho_ai_1",
+                    "pcta5z884pho_ai_2",
+                    "pcta5z884pho_ai_3",
+                    "pcta5z884pho_ai_4",
+                    "pcta5z884pho_ai_5",
+                    "pcta5z884pho_ai_6"
+                ],
+                [
+                    "pcta5z884pho_ii_1"
+                ],
+                [
+                    "pcta5z884pho_ik_1"
+                ],
+                [
+                    "pcta5z884pho_il_1"
+                ]
+            ],
+            "status": null,
+            "objectLinks": [
+                {
+                    "keyIdx": 2,
+                    "valueIdx": 0,
+                    "objectId": "pcta5z884pho"
+                }
+            ],
+            "boundaryIndex": 0,
+            "medias": [],
+            "notes": null,
+            "editable": true,
+            "collected": null,
+            "mobile2type": {
+                "13690252222": {
+                    "originType": "CERT",
+                    "currentType": "CERT",
+                    "status": "NOT_SET"
+                },
+                "13958887044": {
+                    "originType": "HIGH",
+                    "currentType": "HIGH",
+                    "status": "NOT_SET"
+                }
+            }
+        },
+        "relateEntity": [
+            {
+                "key": "com.sophon.link.child",
+                "name": "父母",
+                "cout": 1,
+                "direction": "PARENT",
+                "linkObjectList": [
+                    "1megtjxh15qgy"
+                ]
+            },
+            {
+                "key": "com.sophon.link.memberOf",
+                "name": "隶属于",
+                "cout": 1,
+                "direction": "CHILD",
+                "linkObjectList": [
+                    "180ts65603p10"
+                ]
+            },
+            {
+                "key": "com.sophon.link.own",
+                "name": "拥有",
+                "cout": 3,
+                "direction": "CHILD",
+                "linkObjectList": [
+                    "1nxlktvkxv66a",
+                    "443k2uzuwjo6",
+                    "rtqvn6uw6yo7"
+                ]
+            }
+        ],
+        "relateEntityCount": 5,
+        "relateEvent": [
+            {
+                "key": "com.sophon.link.appearInHotelEvent",
+                "name": "住宿记录",
+                "cout": 29,
+                "direction": "CHILD",
+                "linkObjectList": [
+                    "1c5xqckxcr1wg",
+                    "1t8mtaozl10nb",
+                    "13t7d9c0ef8l6",
+                    "1q717vou7cj33",
+                    "pdbkhdjva12l",
+                    "cqwprpye0l5j",
+                    "1y22ny17sntet",
+                    "19j9nymksztvf",
+                    "116hywpqk4qcp",
+                    "jxo3694kkny0",
+                    "1fv4rv1fmau5c",
+                    "mc4uytkwbffg",
+                    "16lkq847v8g1s",
+                    "19tk0rv9pti34",
+                    "1y4e08gxttiv",
+                    "1h5p2gn4wq935",
+                    "smvpwv4e6mmc",
+                    "gpwn735k8sby",
+                    "16itlnypawgaq",
+                    "2i2butl6dhq0",
+                    "sr0hgzbbhaah",
+                    "1qsiexe4j73m1",
+                    "th1xc00bbrbi",
+                    "laagmq4a1du4",
+                    "1l7q8dn1zrykn",
+                    "15jkw6ccvg1qm",
+                    "1ebc473ty201y",
+                    "kdel80ynmm0h",
+                    "eszsbirg2uzo"
+                ]
+            },
+            {
+                "key": "com.sophon.link.appearInGuardEvent",
+                "name": "看守记录",
+                "cout": 1,
+                "direction": "CHILD",
+                "linkObjectList": [
+                    "k0p14z60vn19"
+                ]
+            },
+            {
+                "key": "com.sophon.link.travellerOfFlightTicket",
+                "name": "乘机记录",
+                "cout": 3,
+                "direction": "CHILD",
+                "linkObjectList": [
+                    "14ak7lyj7entd",
+                    "u1f89zqra1lo",
+                    "1omdbftbc3es5"
+                ]
+            }
+        ],
+        "relateEventCount": 33,
+        "relateDoc": [],
+        "relateDocCount": 0,
+        "seqStatUni": null,
+        "seqCount": 0
+    }
+}

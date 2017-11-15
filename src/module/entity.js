@@ -1,17 +1,22 @@
-class Node {
+class Entity {
   constructor ({
         id = '',
-        name = '',
-        type = '',
-        graphic = null,
-        root = false
+        label = '',
+        color = '',
+        entityType = '',
+        entityName = '',
+        root = true,
+        ext = null,
+        hidden = false,
+        selected = true,
+        
     }) {
     // id
     this.id = id
     // 节点名称
     this.name = name
     // 节点类型
-    this.type = type
+    this.entityType = entityType
     // 节点对应的图像容器
     this.graphic = graphic
     // 是否为根节点
@@ -28,4 +33,4 @@ class Node {
   }
 }
 
-export { Node }
+export { Entity }

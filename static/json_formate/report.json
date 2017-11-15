@@ -1,0 +1,36 @@
+{
+    "repoId": "9247",
+    "graphId": "108254",
+    "img": "v0202/Y4tcp2EipawiBGViLyZiBGW_L4L2AQsjAyV0ZvNmBJLmZUZlLmZ4AmNkBUZlLGHhpU5a",
+    "name": "333",
+    "nodes": [
+        {
+            "id": "pcta5z884pho",
+            "label": "潘孝乐",
+            "color": null,
+            "x": 125.0,
+            "y": 0.0,
+            "size": 25,
+            "selected": false,
+            "highlight": false,
+            "img": "http://10.118.56.171:7350/v0103/MUT0LKAiqKWvMF9vMKW0pUtiqU8iZmZiZQZiBQRiZmZjZmskZGw3AmN2ZQLlAvR2YaOhMj?sptyp=person0&spid=pcta5z884pho&m=1",
+            "entityType": "人",
+            "objTypeName": "人",
+            "fixedColor": null,
+            "fixedSize": null,
+            "newAdded": false,
+            "hidden": false,
+            "keyPerson": true,
+            "personType": 1,
+            "ext": {
+                "sex": 0
+            }
+        }
+    ],
+    "edges": null,
+    "mergenceInfo": null,
+    "dirtyInfo": null,
+    "complexEdgeDatas": null,
+    "temporary": false,
+    "outof": false
+}
