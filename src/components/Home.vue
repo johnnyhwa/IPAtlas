@@ -19,7 +19,7 @@ body {
 </style>
 
 <script>
-import Node from "../module/node";
+import {Node} from "../module/node";
 export default {
   data() {
     return {
@@ -32,12 +32,25 @@ export default {
       ejs: null,
       fpsLabel: null,
       nodePool: [],
-      nodedata: []
+      nodedata: [
+        { id: "1", type: "person", root: true },
+        {
+          photoUrl: "../assets/images/ico_root.png",
+          name: "李雷",
+          idNum: "330125485478521452",
+          plateNum: "浙A·E4514",
+          mac: "AC-AS-DF-CD-DS-SD",
+          rfid: "021561451"
+        },
+        {
+          relNode: []
+        }
+      ]
     };
   },
   mounted() {
     this.init();
-    this.draw();
+    this.display();
   },
   methods: {
     /**
@@ -64,33 +77,31 @@ export default {
 	 * 
 	 */
     initTransform(con, stage, canvas) {
-      var self = this;
+      let self = this;
 
       canvas.oncontextmenu = function(e) {
-        var e = event || window.event;
-
         return false;
       };
 
       stage.addEventListener("stagemousedown", event => {
         console.log(event);
-        var cx = event.stageX;
-        var cy = event.stageY;
-        var sx = con.x;
-        var sy = con.y;
-        var scalex = con.scaleX;
-        var scaley = con.scaleY;
+        let cx = event.stageX;
+        let cy = event.stageY;
+        let sx = con.x;
+        let sy = con.y;
+        let scalex = con.scaleX;
+        let scaley = con.scaleY;
         // 左键框选
         if (event.nativeEvent.button === 0 && !stage.hitTest(cx, cy)) {
-          var w = 0;
-          var h = 0;
-          var g = new createjs.Graphics()
+          let w = 0;
+          let h = 0;
+          let g = new createjs.Graphics()
             .ss(1)
             .s("blue")
             .f("rgba(10,140,255,.4)")
             .dr(cx, cy, w, h);
-          var command = g.command;
-          var s = new createjs.Shape(g);
+          let command = g.command;
+          let s = new createjs.Shape(g);
           s.set({
             alpha: 0.2,
             name: "recselecter"
@@ -128,11 +139,11 @@ export default {
 
       // 鼠标滑轮事件
       canvas.addEventListener("mousewheel", event => {
-        var dir = event.wheelDelta;
-        var scalex = con.scaleX;
-        var scaley = con.scaleY;
-        var sx = con.x;
-        var sy = con.y;
+        let dir = event.wheelDelta;
+        let scalex = con.scaleX;
+        let scaley = con.scaleY;
+        let sx = con.x;
+        let sy = con.y;
         if (dir > 0) {
           con.setTransform(sx, sy, scalex + 0.05, scaley + 0.05);
           self.update = true;
@@ -141,7 +152,7 @@ export default {
           self.update = true;
         }
         event.preventDefault();
-      });
+      }); 
     },
     /**
 	 * @method draw
@@ -149,23 +160,24 @@ export default {
 	 * @return {void}
 	 * 
 	 */
-    draw() {
-      var self = this;
-      var con = this.con;
-      var stage = this.stage;
-      var arr = [];
+    display() {
+      this.drawNode(this.nodedata);
+      /* let self = this;
+      let con = this.con;
+      let stage = this.stage;
+      let arr = [];
       this.fpsLabel = new createjs.Text("-- fps", "bold 18px Arial", "#000");
       stage.addChild(this.fpsLabel);
       this.fpsLabel.x = 10;
       this.fpsLabel.y = 20;
 
-      var img = new Image();
+      let img = new Image();
       img.src = require("../assets/images/ico_root.png");
       img.onload = handleImageLoad;
 
       function handleImageLoad(event) {
-        for (var i = 0; i < 5; i++) {
-          var bitmap = new createjs.Bitmap(event.target);
+        for (let i = 0; i < 5; i++) {
+          let bitmap = new createjs.Bitmap(event.target);
           bitmap.x = 200 + 100 * i;
           bitmap.y = 300;
           bitmap.regX = 34;
@@ -189,7 +201,7 @@ export default {
 
       stage.addChild(con);
       createjs.Ticker.framerate = 30;
-      createjs.Ticker.addEventListener("tick", this.tick);
+      createjs.Ticker.addEventListener("tick", this.tick); */
     },
 
     /**
@@ -198,7 +210,17 @@ export default {
 	 * @returns {void}
 	 * 
 	 */
-    drawNode() {},
+    drawNode(p_data) {
+      console.log(p_data);
+      let opt = {
+       
+      }
+      let o = new Node(opt);
+      console.log(o)
+    },
+    drawLine(p_data) {
+
+    },
     /**
 	 * @method tick
 	 * @description tick handle
